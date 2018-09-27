@@ -42,7 +42,7 @@ public class GameWindow extends JFrame {
 			if (is_drop){
 				drop_top = -100;
 				drop_left = (int) (Math.random()* (game_field.getWidth()-drop.getWidth(null)));
-			drop_v = drop_v + 20;
+			drop_v = drop_v + 10;
 			score ++;
 			game_window.setTitle("Score: " + score);
 
